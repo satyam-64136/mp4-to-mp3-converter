@@ -14,7 +14,7 @@ canvas.grid(columnspan=3,rowspan=3)
 
 
 #making logo
-logo = Image.open("C:\\Users\\ironm\\Desktop\\python projects\\my_mp3_converter\\image.png")
+logo = Image.open("my_mp3_converter\\image.png")
 logo = ImageTk.PhotoImage(logo)
 logo_label = Label(image=logo)
 logo_label.image = logo
